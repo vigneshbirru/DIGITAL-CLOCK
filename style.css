@@ -1,0 +1,29 @@
+body{
+    background-color: #090909;
+}
+
+
+.clock{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%)  translateY(-50%);
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+
+}
+.heading{
+ color: #F5F5F5;
+ font-size: 18px;
+ text-transform: uppercase;
+ text-align: center;
+}
+
+.time{
+    background:#090909;
+    color: #ffffff;
+    font-size: 100px;
+    width: 150px;
+    margin: 0 10px;
+    text-align: center;
+}
